@@ -1,7 +1,7 @@
 def my_func(x1,x2,x3):
     
-    a=((type(x1)!=float) or (type(x2)!=float) or (type(x3)!=float))
-    if a== True:
+    con=((type(x1)!=float) or (type(x2)!=float) or (type(x3)!=float))
+    if con== True:
         pass
         if x1==0 and x2==0 and x3==0:
             return "Not a number – denominator equals zero"
